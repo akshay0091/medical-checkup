@@ -120,7 +120,7 @@ USE_TZ = True
 import os
 #STATIC_ROOT = 'D:/PycharmProjectsmedical/medical_checkup/home/static'
 STATIC_URL = '/static/'
-STATIC_ROOT = os.path.join(BASE_DIR,'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR,'/static/')
 print(STATIC_ROOT)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
