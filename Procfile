@@ -1,2 +1,2 @@
 
-web: gunicorn medical_checkup.medical_checkup.wsgi
+web: gunicorn medical_checkup.wsgi
